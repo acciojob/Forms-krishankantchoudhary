@@ -9,13 +9,13 @@ const App=()=>{
         <BrowserRouter>
         <nav>
             <Link id="form-link" to="/form">Form</Link>
-            <Link id="form-ref-link" to="/formref">FormRef</Link>
-            <Link  id="form-state-link" to="/formState">FormState</Link>
+            <Link id="form-ref-link" to="/form-ref">FormRef</Link>
+            <Link  id="form-state-link" to="/form-state">FormState</Link>
         </nav>
         <Switch>
             <Route path="/form" component={Form}/>
-            <Route path="/formref" component={FormRef}/>
-            <Route path="/formstate" component={FormState}/>
+            <Route path="/form-ref" component={FormRef}/>
+            <Route path="/form-state" component={FormState}/>
         </Switch>
         </BrowserRouter>
     )
